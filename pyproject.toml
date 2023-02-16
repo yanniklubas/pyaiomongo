@@ -10,7 +10,7 @@ dependencies = [
   "pymongo",
 ]
 description = "PyAIOMongo is a native asyncio mongo driver for python."
-name = "pyAIOMongo"
+name = "pyaiomongo"
 readme = "Readme.md"
 requires-python = ">=3.10"
 version = "0.0.1"
