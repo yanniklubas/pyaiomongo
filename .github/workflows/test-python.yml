@@ -37,10 +37,10 @@ jobs:
           python -m pip install .
       - name: Run mypy
         run: |
-          mypy --install-types --non-interactive src/pyaiomongo
+          mypy --install-types --non-interactive --package pyaiomongo
       - name: Run mypy strict
         run: |
-          mypy --strict src/pyaiomongo
+          mypy --install-types --non-interactive --package pyaiomongo --strict
       - name: Run pyright (strict)
         run: |
           python -m pip install -U pip pyright==1.1.294
